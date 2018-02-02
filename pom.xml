@@ -6,6 +6,7 @@
 	<artifactId>eureka</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
+	
 
 	<name>com.example.eureka</name>
 	<description>Eureka </description>
