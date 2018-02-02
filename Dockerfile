@@ -24,4 +24,4 @@ VOLUME /tmp
 ADD /terg/eureka-1.0.jar eureka-1.0.jar
 #RUN sh -c 'touch /sample-1.0.jar'
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/eureka-1.0.jar"]
-#RUN /bin/sh
+#RUN  /bin/sh
