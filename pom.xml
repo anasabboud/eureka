@@ -6,7 +6,7 @@
 	<artifactId>eureka</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	
+
 
 	<name>com.example.eureka</name>
 	<description>Eureka </description>
@@ -35,6 +35,15 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -87,4 +96,15 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.5.9.RELEASE</version>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
